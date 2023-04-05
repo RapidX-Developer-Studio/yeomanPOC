@@ -62,6 +62,7 @@ spec:
       action: run:yeoman
       input:
         namespace: react-webpack:component
+        with:
         args: 
           name: name
           type: string
