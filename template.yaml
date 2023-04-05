@@ -62,11 +62,9 @@ spec:
       action: run:yeoman
       input:
         namespace: react-webpack:component
-        with:
         args: 
-          - name: name
-          type: string
-
+          with:
+           name: name
     - id: publish
       if: ${{ parameters.dryRun !== true }}
       name: Publish
