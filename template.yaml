@@ -64,7 +64,7 @@ spec:
         namespace: react-webpack:component
         args: 
           with:
-           name: name
+           name: [name]
     - id: publish
       if: ${{ parameters.dryRun !== true }}
       name: Publish
