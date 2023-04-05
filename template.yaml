@@ -61,7 +61,7 @@ spec:
       name: Yeoman
       action: run:yeoman
       input:
-        namespace: react-typescript-template
+        namespace: react-typescript-template:app
         
     - id: publish
       if: ${{ parameters.dryRun !== true }}
